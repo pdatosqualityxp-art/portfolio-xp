@@ -53,7 +53,22 @@ export function renderPortfolio() {
               <h3 data-i18n="projects.tst.title"></h3>
               <p class="project-description" data-i18n="projects.tst.description"></p>
               <div class="project-bottom"><span class="project-metric" data-i18n="projects.tst.metric"></span><span class="project-arrow" aria-hidden="true">↗</span></div>
-              <div class="project-tech"><span>Flutter</span><span>Firebase</span><span>AI</span></div>
+              <div class="project-tech">
+                <span>Flutter</span><span>Firebase</span><span>AI</span>
+                <span class="platform-chip">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.6-2.2.43-3.06-.35C2.79 15.25 3.5 5.12 8.7 4.7c1.26.1 2.14.7 2.9.75 1.14-.22 2.23-.83 3.45-.79 1.47.12 2.57.7 3.28 1.74-3.03 1.82-2.31 5.83.47 6.95-.56 1.45-1.3 2.88-2.25 3.93zM11.8 4.62c-.14-2.16 1.61-3.94 3.65-4.12.28 2.5-2.27 4.44-3.65 4.12z" />
+                  </svg>
+                  <span>iOS</span>
+                </span>
+                <span class="platform-chip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m7 5-1.5-2M17 5l1.5-2M5 11a7 7 0 0 1 14 0v1H5zM4 13v5m16-5v5M8 12v1m8-1v1M7 19h10" />
+                    <path d="M8 19v2m8-2v2" />
+                  </svg>
+                  <span>Android</span>
+                </span>
+              </div>
             </article>
             <article class="project-card spotlight-card" data-reveal>
               <div class="project-topline"><span class="project-index">02</span><span class="project-symbol symbol-cool" aria-hidden="true">⌘</span></div>

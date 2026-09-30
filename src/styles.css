@@ -682,6 +682,18 @@ p {
   margin-top: 14px;
 }
 
+.project-tech .platform-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.platform-chip svg {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
 .project-tech span,
 .skill-list span,
 .tool-list span {
